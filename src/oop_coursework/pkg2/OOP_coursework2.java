@@ -25,69 +25,70 @@ public class OOP_coursework2 {
         int i = 0;
         String grd;
         float sum=0;
-        Scanner scan= new Scanner(System.in);
-         System.out.println("Enter the first course unit");	
-        String b = scan.next();
-        System.out.println("Input Marks for the first course unit");	
-        String m  = scan.next();
+       
         
-        mark[i] = scan.nextInt();
-            sum = sum + mark[i];       
-         
+         System.out.println("Enter the first course unit");	
+        String b = result.next();
+        System.out.println("Input Marks for the first course unit");	
+        int m  = result.nextInt();
+        
+       
+                   
+        
         System.out.println("Enter the second course unit");	
-        String c = scan.next();
+        String c = result.next();
         System.out.println(c);	
         
         System.out.println("Enter Marks for the second course unit");	
-        String n  = scan.next();
+        int n  = result.nextInt();
                
-         mark[i] = scan.nextInt();
-            sum = sum + mark[i];
+        
+          
        
                  
         System.out.println("Enter the third course unit");	
-        String d = scan.next();
+        String d = result.next();
         System.out.println(d);
         
         System.out.println("Enter Marks for the third course unit");	
-        String z = scan.next();
+       int z = result.nextInt();
                
-         mark[i] = scan.nextInt();
-            sum = sum + mark[i];
+        
+           
             
                  System.out.println("Enter fourth course unit");	
-        String e = scan.next();
+        String e = result.next();
         System.out.println(e);	
         
         System.out.println("Enter Marks for the fourth course unit");	
-        String h  = scan.next();
+       int h  = result.nextInt();
                 
-         mark[i] = scan.nextInt();
-            sum = sum + mark[i];
+        
+           
                
         
         System.out.println("Enter the fifth course unit");	
-        String f = scan.next();
+        String f = result.next();
         System.out.println(f);
         
         System.out.println("Enter Marks for the fifth course unit");	
-        String q  = scan.next();
+       int q  = result.nextInt();
                 
-         mark[i] = scan.nextInt();
-            sum = sum + mark[i];
+       
+           
                
                  System.out.println("Enter the sixth course unit");	
-        String g = scan.next();
+        String g = result.next();
         System.out.println(g);	
         
-        System.out.println("Enter Marks for the first course unit");	
-        String r  = scan.next();
+        System.out.println("Enter Marks for the sixth course unit");	
+        int r  = result.nextInt();
                
-            mark[i] = scan.nextInt();
-            sum = sum + mark[i];
+           
+            sum = m+n+z+h+q+r;
             float a = (sum*100)/600;
-            System.out.print("average is: "+ a);
-            
+            System.out.println("average is: "+ a);
+        
                 name.add(x);
                 p++;
             }
